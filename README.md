@@ -12,3 +12,23 @@ We have created a simulation function which allows to display according to the v
 * a noisy signal combined with linear regression
 
 <p align="center"> <img src="Image1.png"/> </p>
+
+## Data extraction
+This part consists of extracting the different variables from our simulation function. We are therefore going to create a new function which will take as a parameter: errors.
+<p align="center"> <img src="Image2.png"/> </p>
+
+## Results analysis
+Modeling part : we were able to carry out a simulation of a system whose response is linear thanks to a function allowing to have different parameters chosen by the user through five cursors a, b, N, sigma, class:
+-	Linear regression
+- Gaussian noise
+- Gaussian histogram
+- Noisy signal
+
+Noise representation part: we have a graph that displays the noise distribution (in a time domain). We added a slider which is the standard deviation. The evolution of this standard deviation around the mean represents the measurement error.  
+
+Generation part of the values obtained: a table has been inserted which gathers the theoretical and estimated values, as well as their errors.
+
+We generated an initialization file with predefined values so that we could automatically display our graphs when launching the code.  
+
+In the end we have the following graphical interface:
+<p align="center"> <img src="Image3.png"/> </p>
