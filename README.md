@@ -32,3 +32,8 @@ We generated an initialization file with predefined values so that we could auto
 
 In the end we have the following graphical interface:
 <p align="center"> <img src="Image3.png"/> </p>
+
+## Conclusion
+By programming this Human-Machine interface, I obtained different information such as the measurement noise, the coefficient of determination.  
+
+During this project, I used different methods like matrix calculation and least squares method.
