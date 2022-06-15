@@ -24,9 +24,9 @@ Modeling part : I was able to perform a simulation of a system whose response is
 - Gaussian histogram
 - Noisy signal
 
-Noise representation part: I have a graph that displays the noise distribution (in a time domain). I added a slider which is the standard deviation. The evolution of this standard deviation around the mean represents the measurement error.  
+Noise representation part : I have a graph that displays the noise distribution (in a time domain). I added a slider which is the standard deviation. The evolution of this standard deviation around the mean represents the measurement error.  
 
-Generation part of the values obtained: a table has been inserted which gathers the theoretical and estimated values, as well as their errors.
+Generation part of the values obtained : a table has been inserted which gathers the theoretical and estimated values, as well as their errors.
 
 I generated an initialization file with predefined values so that we could automatically display our graphs when launching the code.  
 
